@@ -1,7 +1,7 @@
 ﻿Install-ChocolateyPackage `
-    -PackageName 'imageresizerapp' `
-    -FileType 'EXE' `
+    -PackageName imageresizerapp `
+    -FileType exe `
     -SilentArgs '/quiet /norestart' `
-    -Url 'https://github.com/bricelam/ImageResizer/releases/download/v3.0/ImageResizerSetup-3.0.exe' `
-    -Checksum '9E23E07E042943E1862B86D8C9DC05483A118938F5B19F359CB8F9AA6A14A452' `
-    -ChecksumType 'SHA256'
+    -Url https://github.com/bricelam/ImageResizer/releases/download/v3.1.0/ImageResizerSetup.exe `
+    -Checksum 0ADD64A8E4EDDA589DB22BCFF9778B5C375180CC8FFFDFCB0D767A985B87CCF9 `
+    -ChecksumType sha256

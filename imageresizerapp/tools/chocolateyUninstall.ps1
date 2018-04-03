@@ -1,5 +1,5 @@
 Uninstall-ChocolateyPackage `
-  -PackageName 'imageresizerapp' `
-  -FileType 'EXE' `
-  -Silent '/quiet /norestart /uninstall' `
-  -File (((Get-UninstallRegistryKey 'Image Resizer for Windows').UninstallString -split '"')[1])
+    -PackageName imageresizerapp `
+    -FileType exe `
+    -SilentArgs '/uninstall /quiet /norestart' `
+    -File (Get-UninstallRegistryKey -SoftwareName 'Image Resizer for Windows' | ? {$_.SystemComponent -ne 1}).BundleCachePath
