@@ -3,5 +3,5 @@
     -FileType exe `
     -SilentArgs '/quiet /norestart' `
     -Url https://github.com/bricelam/ImageResizer/releases/download/v3.1.0/ImageResizerSetup.exe `
-    -Checksum 0ADD64A8E4EDDA589DB22BCFF9778B5C375180CC8FFFDFCB0D767A985B87CCF9 `
+    -Checksum 7CB6ED2812CB411B5AD4B9008A8AB6257AC48A9E704A593CBA2793C93D0B4047 `
     -ChecksumType sha256
