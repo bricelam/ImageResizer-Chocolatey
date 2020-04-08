@@ -3,7 +3,7 @@
   <metadata>
     <id>imageresizerapp</id>
     <title>Image Resizer for Windows</title>
-    <version>3.1.1</version>
+    <version>3.1.2</version>
     <authors>Brice Lambson</authors>
     <owners>Brice Lambson</owners>
     <summary>Lets you resize images by right-clicking.</summary>
@@ -13,11 +13,11 @@
     <packageSourceUrl>https://github.com/bricelam/ImageResizer-Chocolatey</packageSourceUrl>
     <bugTrackerUrl>https://github.com/bricelam/ImageResizer/issues</bugTrackerUrl>
     <iconUrl>https://cdn.rawgit.com/bricelam/ImageResizer-Chocolatey/dbd2469254b8842afe2c8011047caae5b8f88050/imageresizerapp.png</iconUrl>
-    <licenseUrl>https://github.com/bricelam/ImageResizer/blob/v3.1.1/LICENSE.md</licenseUrl>
+    <licenseUrl>https://github.com/bricelam/ImageResizer/blob/v3.1.2/LICENSE.md</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
-    <releaseNotes>https://github.com/bricelam/ImageResizer/releases/tag/v3.1.1</releaseNotes>
+    <releaseNotes>https://github.com/bricelam/ImageResizer/releases/tag/v3.1.2</releaseNotes>
     <tags>batch image photo picture resize</tags>
-    <copyright>© 2018 Brice Lambson. All rights reserved.</copyright>
+    <copyright>© 2019 Brice Lambson. All rights reserved.</copyright>
     <docsUrl>http://bricelam.net/ImageResizer</docsUrl>
     <dependencies>
       <dependency id="chocolatey-core.extension" version="1.1.0" />
